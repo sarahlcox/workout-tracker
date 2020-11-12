@@ -13,7 +13,15 @@ router.post("/api/workouts", ({ body }, res) => {
 });
 
 router.post("/api/addExercise/:id", (req, res) => {
-
+// tell the db that we want to get the workout of the id (req.params.id or req.id? rec.body.id?) and then add to its exercises what we have in req.body
+    Workouts.find({})
+    // ^^ in find we need to tell it what to find in the {id:req.body.id}
+    .then(response => {
+    // want to take this response and parse it into the workouts object (ex.... workout.exercises.push/add(req.body)
+    })
+    .catch(err => {
+    res.status(400).json(err);
+    });
     console.log(req.body);
   });
 
