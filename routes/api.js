@@ -17,7 +17,7 @@ router.post("/api/addExercise/:id", (req, res) => {
     Workouts.find({})
     // ^^ in find we need to tell it what to find in the {id:req.body.id}
     .then(response => {
-    // want to take this response and parse it into the workouts object (ex.... workout.exercises.push/add(req.body)
+    // want to take this response and parse it into the workouts object (ex.... workout.exercises.push/add(req.body), and then update to the db
     })
     .catch(err => {
     res.status(400).json(err);
