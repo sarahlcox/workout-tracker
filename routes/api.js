@@ -2,7 +2,7 @@ const router = require("express").Router();
 const Workouts = require("../models/workout.js");
 
 // adds exercises to previous workout plan
-router.post("/api/workouts/", ({ body }, res) => {
+router.post("/api/workouts", ({ body }, res) => {
   Workouts.create(body)
     .then(response => {
       res.json(response);
@@ -11,7 +11,17 @@ router.post("/api/workouts/", ({ body }, res) => {
       res.status(400).json(err);
     });
 });
-//adds new exercises to a new workout plan
+
+router.post("/api/exercise", ({ body }, res) => {
+    // Workouts.create(body)
+    //   .then(response => {
+    //     res.json(response);
+    //   })
+    //   .catch(err => {
+    //     res.status(400).json(err);
+    //   });
+    console.log("hi");
+  });
 
 
 // View the combined weight of multiple exercises on stats page
