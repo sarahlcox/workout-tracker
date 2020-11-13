@@ -6,7 +6,7 @@
   * [ Technology ](#technology)
   * [ Installation ](#installation)
   * [ Contributors ](#contributors)
-  * [ GitHub Repo ](#github-repo)
+  * [ GitHub Repo Link](#github-repo-link)
   * [ Screenshots ](#screenshots)
 
   
