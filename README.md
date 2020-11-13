@@ -1,11 +1,12 @@
 # Workout Tracker
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Table of Contents
   * [ Description ](#description)
-  * [ Deployed Link ](#deployed link)
+  * [ Deployed Link ](#deployed-link)
   * [ Technology ](#technology)
   * [ Installation ](#installation)
   * [ Contributors ](#contributors)
-  * [ GitHub Repo ](#github repo)
+  * [ GitHub Repo ](#github-repo)
   * [ Screenshots ](#screenshots)
 
   
